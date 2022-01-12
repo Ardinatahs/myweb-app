@@ -18,14 +18,17 @@ $cyan: #17a2b8 !default;
 
 //Bikinan sendiri
 $black-primary: #232323;
+$chocolate-primary: #BA9F7C;
+$chocolate-secondary: #E3D4A3; 
 
 //Fonts
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans&family=Sora');
 
 // Typography
 $font-family-nunito: 'Nunito', sans-serif;
 $font-family-montserrat: 'Montserrat', sans-serif;
 $font-family-opensans: 'Open Sans', sans-serif;
+$font-family-sora: 'Sora', sans-serif;
 
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;

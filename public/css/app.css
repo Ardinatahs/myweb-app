@@ -1,5 +1,18 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans&family=Sora);
 @charset "UTF-8";
+.btn-kontak {
+  background-color: #e3d4a3;
+  color: #1a1831;
+  border: hidden;
+  border-radius: 8px;
+  margin-left: 80px;
+  height: 45px;
+}
+.btn-kontak:hover {
+  background-color: #F8E9BC;
+  color: #fff;
+}
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
@@ -13,22 +26,68 @@ html, body {
   overflow: hidden;
 }
 .row-title .my-name {
-  font-family: "Montserrat", sans-serif;
-  font-size: 100px;
-  line-height: 95px;
+  font-family: "Sora", sans-serif;
+  font-size: 48px;
   color: #232323;
-}
-.row-title .my-name strong {
-  border-bottom: 3px solid #ff214f;
-}
-.row-title .caption {
-  font-family: "Montserrat", sans-serif;
-  margin-top: 40px;
-  letter-spacing: 2px;
-  color: #939393;
-  font-size: 30px;
-  line-height: 20px;
+  text-align: left;
+  margin-left: 40px;
   font-weight: bold;
+}
+.row-title .job {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  color: #000;
+  font-size: 24px;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 40px;
+}
+.row-title .deskripsi {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  max-width: 70%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.row-title .btn-cv {
+  background-color: #BA9F7C;
+  color: #fff;
+  border: hidden;
+  border-radius: 8px;
+  margin-left: 40px;
+  height: 45px;
+  padding: 0 10;
+}
+.row-title .btn-cv:hover {
+  background-color: #CFB593;
+  color: #fff;
+}
+.row-title .social-media {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.card-title {
+  float: none !important;
+}
+
+.cardbody-hover {
+  transition: all 0.25s ease-in;
+  border-bottom: 5px solid transparent;
+}
+.cardbody-hover:hover {
+  transform: translateY(-5px);
+  color: navy;
+  font-size: large !important;
+  font-weight: bold !important;
+  border: none;
+  border-bottom: 5px solid #2196fe !important;
 }
 
 /*!

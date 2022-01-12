@@ -1,0 +1,13 @@
+.btn-kontak {
+    background-color: #e3d4a3;
+    color: #1a1831;
+    border: hidden;
+    border-radius: 8px;
+    margin-left: 80px;
+    height: 45px;
+
+    &:hover {
+        background-color: #F8E9BC;
+        color: #fff;
+    }
+}
