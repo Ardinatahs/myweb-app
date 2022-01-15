@@ -15,7 +15,7 @@
 
 <li class="nav-item">
     <a href="{{ url('portofolios') }}" class="nav-link">
-        <i class="nav-icon fas fa-briefcase"></i>
+        <i class="nav-icon fas fa-user-plus"></i>
         <p>Portofolios</p>
     </a>
 </li>

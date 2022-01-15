@@ -27,6 +27,7 @@
             <div class="col-md-12">
                 @include('pages.navbar')
                 @include('pages.header')
+                @include('pages.aboutme')
                 @include('pages.experience')
                 @include('pages.portofolio')
             </div>

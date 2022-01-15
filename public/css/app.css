@@ -18,6 +18,10 @@ html, body {
   overflow-x: hidden;
 }
 
+.masthead {
+  background-color: #F7F7F7;
+}
+
 .row-title {
   min-height: 650px;
 }
@@ -32,6 +36,7 @@ html, body {
   text-align: left;
   margin-left: 40px;
   font-weight: bold;
+  margin-top: 100px;
 }
 .row-title .job {
   font-family: "Montserrat", sans-serif;
@@ -88,6 +93,33 @@ html, body {
   font-weight: bold !important;
   border: none;
   border-bottom: 5px solid #2196fe !important;
+}
+
+.title-section {
+  font-family: "Sora", sans-serif;
+}
+.title-section strong {
+  border-bottom: 2px solid #000;
+}
+
+.info {
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+
+li {
+  list-style: none;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.first-block {
+  width: 30%;
+  float: left;
+}
+
+.second-block {
+  width: 70%;
 }
 
 /*!
