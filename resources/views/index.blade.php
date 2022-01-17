@@ -30,6 +30,7 @@
                 @include('pages.aboutme')
                 @include('pages.experience')
                 @include('pages.portofolio')
+                @include('pages.education')
             </div>
             </div>
         </div>
