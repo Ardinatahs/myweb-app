@@ -1,5 +1,5 @@
 <!-- aboutme Section -->
-<section id="aboutme" class="py-5">
+<section id="navaboutme" class="py-5">
     <!-- Page Content -->
     <div class="container">
     <h3 class="text-center title-section mt-2"><strong>About Me</strong></h3>

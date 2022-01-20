@@ -1,4 +1,4 @@
-<section class="education py-5" id="education">
+<section class="education py-5" id="naveducation">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-8 mx-auto">

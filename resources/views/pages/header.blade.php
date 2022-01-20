@@ -1,4 +1,5 @@
-<header class="masthead">
+<section id="navhome">
+  <header class="masthead">
     <div class="container">
       <div class="row align-items-center row-title">
         <div class="col-sm-7 text-start" data-aos="fade-up" data-aos-duration="1500">
@@ -25,3 +26,4 @@
       </div>
     </div>
   </header>
+</section>
